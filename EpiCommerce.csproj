@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="EPiServer.Commerce" Version="14.*" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+</Project>
